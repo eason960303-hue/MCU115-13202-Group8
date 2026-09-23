@@ -15,17 +15,17 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.sp
-import com.example.myfristapp.ui.theme.MyfristappTheme
+import com.example.myfristapp.ui.theme.MyFristAppTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            MyfristappTheme {
+            MyFristAppTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Android",
+                        name = "World!!!!",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
@@ -38,7 +38,7 @@ class MainActivity : ComponentActivity() {
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
         text = "Hello $name",
-        fontSize = 36.sp,          // 字體變大
+        fontSize = 48.sp,          // 字體變大
         color = Color(0xFF00FF00), // 亮綠色
         modifier = modifier
             .fillMaxSize()
@@ -49,7 +49,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
-    MyfristappTheme {
+    MyFristAppTheme {
         Greeting("Android")
     }
 }

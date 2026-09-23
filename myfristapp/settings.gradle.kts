@@ -22,6 +22,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "myfristapp"
+rootProject.name = "MyFristApp"
 include(":app")
  
