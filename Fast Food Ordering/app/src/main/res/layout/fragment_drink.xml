@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_drink"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <RadioGroup
+        android:id="@+id/rg_drink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rb_cola"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cola"
+            android:textSize="18sp"
+            android:padding="8dp" />
+
+        <RadioButton
+            android:id="@+id/rb_iced_tea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/iced_tea"
+            android:textSize="18sp"
+            android:padding="8dp" />
+
+        <RadioButton
+            android:id="@+id/rb_water"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/water"
+            android:textSize="18sp"
+            android:padding="8dp" />
+
+    </RadioGroup>
+
+</LinearLayout>
