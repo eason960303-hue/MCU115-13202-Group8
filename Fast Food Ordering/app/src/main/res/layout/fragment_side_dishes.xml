@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="24dp">
+    android:padding="20dp">
 
     <TextView
         android:id="@+id/tv_title"
@@ -12,30 +12,37 @@
         android:text="@string/select_side_dishes"
         android:textSize="20sp"
         android:textStyle="bold"
+        android:textColor="?attr/colorOnSurface"
         android:layout_marginBottom="16dp" />
 
     <CheckBox
         android:id="@+id/cb_fries"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/fries"
-        android:textSize="18sp"
-        android:padding="8dp" />
+        android:textSize="16sp"
+        android:paddingVertical="10dp"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp" />
 
     <CheckBox
         android:id="@+id/cb_salad"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/salad"
-        android:textSize="18sp"
-        android:padding="8dp" />
+        android:textSize="16sp"
+        android:paddingVertical="10dp"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp" />
 
     <CheckBox
         android:id="@+id/cb_corn_cup"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/corn_cup"
-        android:textSize="18sp"
-        android:padding="8dp" />
+        android:textSize="16sp"
+        android:paddingVertical="10dp"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp" />
 
 </LinearLayout>

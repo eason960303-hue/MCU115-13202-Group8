@@ -1,9 +1,15 @@
 <resources>
     <string name="app_name">Fast Food Ordering</string>
     <string name="fast_food_order_wizard">FastFood Order Wizard</string>
+    <string name="tab_main_meal">主餐</string>
+    <string name="tab_side_dishes">副餐</string>
+    <string name="tab_drink">飲料</string>
+    <string name="tab_confirm">確認</string>
     <string name="choose_main_meal">Choose Main Meal</string>
     <string name="choose_side_dishes">Choose Side Dishes</string>
     <string name="choose_drink">Choose Drink</string>
+    <string name="current_selection">Current Selection:</string>
+    <string name="order_button">Order</string>
     <string name="confirm_order">Confirm Order</string>
     <string name="select_main_meal">Select Main Meal</string>
     <string name="burger">Burger</string>

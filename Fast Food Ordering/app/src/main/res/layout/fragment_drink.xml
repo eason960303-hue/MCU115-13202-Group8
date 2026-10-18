@@ -3,15 +3,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="24dp">
+    android:padding="20dp">
 
     <TextView
         android:id="@+id/tv_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/select_drink"
-        android:textSize="22sp"
+        android:textSize="20sp"
         android:textStyle="bold"
+        android:textColor="?attr/colorOnSurface"
         android:layout_marginBottom="16dp" />
 
     <RadioGroup
@@ -21,27 +22,33 @@
 
         <RadioButton
             android:id="@+id/rb_cola"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/cola"
-            android:textSize="18sp"
-            android:padding="8dp" />
+            android:textSize="16sp"
+            android:paddingVertical="10dp"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp" />
 
         <RadioButton
             android:id="@+id/rb_iced_tea"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/iced_tea"
-            android:textSize="18sp"
-            android:padding="8dp" />
+            android:textSize="16sp"
+            android:paddingVertical="10dp"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp" />
 
         <RadioButton
             android:id="@+id/rb_water"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/water"
-            android:textSize="18sp"
-            android:padding="8dp" />
+            android:textSize="16sp"
+            android:paddingVertical="10dp"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp" />
 
     </RadioGroup>
 
