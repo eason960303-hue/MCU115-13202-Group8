@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">電話簿</string>
+    <string name="cd_delete_contact">刪除聯絡人</string>
+</resources>
